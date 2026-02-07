@@ -2,58 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>One Piece World</title>
+    <title>One Piece Universe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>🏴‍☠️ One Piece World</h1>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#crew">Straw Hats</a>
-            <a href="#about">About</a>
-        </nav>
-    </header>
-
-    <section id="home" class="hero">
-        <h2>Welcome to the Grand Line</h2>
-        <p>Join Monkey D. Luffy on his journey to become the Pirate King!</p>
-        <button id="exploreBtn">Explore Crew</button>
-    </section>
-
-    <section id="crew" class="crew">
-        <h2>Straw Hat Pirates</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Monkey D. Luffy</h3>
-                <p>Captain | Gum-Gum Fruit</p>
-            </div>
-            <div class="card">
-                <h3>Roronoa Zoro</h3>
-                <p>Swordsman | Three Sword Style</p>
-            </div>
-            <div class="card">
-                <h3>Nami</h3>
-                <p>Navigator | Cat Burglar</p>
-            </div>
-            <div class="card">
-                <h3>Sanji</h3>
-                <p>Cook | Black Leg</p>
-            </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay">
+            <h1>ONE PIECE</h1>
+            <p>The Great Pirate Era Begins</p>
+            <button id="crewBtn">View Straw Hat Crew</button>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About One Piece</h2>
-        <p>
-            One Piece is a legendary anime and manga created by Eiichiro Oda.
-            It follows Luffy and his pirate crew in search of the ultimate treasure — One Piece.
-        </p>
+    <!-- Crew Section -->
+    <section class="crew" id="crew">
+        <h2>Straw Hat Pirates</h2>
+
+        <div class="crew-container">
+
+            <div class="bounty-card">
+                <img src="https://cdn.myanimelist.net/images/characters/10/284121.jpg" alt="Luffy">
+                <h3>Monkey D. Luffy</h3>
+                <p>Bounty: 3,000,000,000 Berries</p>
+            </div>
+
+            <div class="bounty-card">
+                <img src="https://cdn.myanimelist.net/images/characters/3/188324.jpg" alt="Zoro">
+                <h3>Roronoa Zoro</h3>
+                <p>Bounty: 1,111,000,000 Berries</p>
+            </div>
+
+            <div class="bounty-card">
+                <img src="https://cdn.myanimelist.net/images/characters/2/263891.jpg" alt="Nami">
+                <h3>Nami</h3>
+                <p>Bounty: 366,000,000 Berries</p>
+            </div>
+
+            <div class="bounty-card">
+                <img src="https://cdn.myanimelist.net/images/characters/9/310307.jpg" alt="Sanji">
+                <h3>Sanji</h3>
+                <p>Bounty: 1,032,000,000 Berries</p>
+            </div>
+
+        </div>
     </section>
 
     <footer>
-        <p>⚓ Made for One Piece Fans</p>
+        <p>⚓ Made for True One Piece Fans</p>
     </footer>
 
     <script src="index.js"></script>
